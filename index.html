@@ -66,7 +66,7 @@ footer{padding:28px 0;color:#445;font-size:14px}
       <span>Pinnacle Agency</span>
     </div>
     <div class="contact-top">
-      <a href="tel:15862246692">(586) 224-6692</a> &nbsp;|&nbsp;
+      <a href="tel:19892527">(989) 572-2527</a> &nbsp;|&nbsp;
       <a href="mailto:DanyaHotelling.pinnacle@gmail.com">DanyaHotelling.pinnacle@gmail.com</a>
     </div>
   </div>
@@ -162,7 +162,7 @@ footer{padding:28px 0;color:#445;font-size:14px}
       <a href="https://gateway.insurance.ohio.gov/UI/ODI.Agent.Public.UI/AgentSearch.mvc/DisplaySearch" target="_blank">Ohio DOI</a>
     </div>
     <div class="small" style="margin-top:10px">
-      © 2025 Danya Hotelling — Pinnacle Agency • (586) 224-6692 • DanyaHotelling.pinnacle@gmail.com
+      © 2025 Danya Hotelling — Pinnacle Agency • (989) 572-2527 • DanyaHotelling.pinnacle@gmail.com
     </div>
   </div>
 </footer>
@@ -174,7 +174,7 @@ footer{padding:28px 0;color:#445;font-size:14px}
     <div id="qrCode"></div>
     <div id="mobileTextOption" style="display:none;margin-top:20px;">
       <a id="textMeButton"
-         href="sms:+15862246692?body=Hi%20Danya%2C%20my%20name%20is%20YOURNAME%2E%20I%20came%20across%20your%20information%20and%20want%20to%20learn%20more.%20The%20best%20time%20to%20call%20me%20is%20DAY%20at%20TIME."
+         href="sms:+19895722527?body=Hi%20Danya%2C%20my%20name%20is%20YOURNAME%2E%20I%20came%20across%20your%20information%20and%20want%20to%20learn%20more.%20The%20best%20time%20to%20call%20me%20is%20DAY%20at%20TIME."
          style="background:#0a2540;color:white;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:600;display:inline-block;">
          📱 Click to Text Me
       </a>
@@ -231,14 +231,14 @@ document.getElementById('quoteForm').addEventListener('submit', async function(e
   if(isMobile){
     modalTitle.textContent='Text Me Directly!';
     mobileOption.style.display='block';
-    document.getElementById('textMeButton').href=`sms:+15862246692?body=${encodeURIComponent(msgFull)}`;
+    document.getElementById('textMeButton').href=`sms:+19895722527?body=${encodeURIComponent(msgFull)}`;
   }else{
-    const sms=`sms:+15862246692?body=${encodeURIComponent(msgShort)}`;
+    const sms=`sms:+19895722527?body=${encodeURIComponent(msgShort)}`;
     try{
       new QRCode(qrContainer,{text:sms,width:150,height:150,correctLevel:QRCode.CorrectLevel.L});
     }catch(err){
       console.error('QR generation error:',err);
-      qrContainer.innerHTML=`<p style='font-size:14px;color:#555;'>Couldn’t generate QR. Please text manually:<br><b>(586) 224-6692</b></p>`;
+      qrContainer.innerHTML=`<p style='font-size:14px;color:#555;'>Couldn’t generate QR. Please text manually:<br><b>(989) 572-2527</b></p>`;
     }
   }
 
